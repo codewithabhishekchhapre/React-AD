@@ -51,6 +51,8 @@ function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center ">
+        <input type="text" className=" text-red-400"/>
+        <button className="button-basic">login</button>
       <div className="bg-white/80 p-10 rounded-xl shadow-2xl w-full max-w-md backdrop-blur-md">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
           Login to Your Account
@@ -85,6 +87,7 @@ function Login() {
           </div> */}
 
           <div>
+            
             <label htmlFor="expiresInMins" className="block text-sm font-semibold text-gray-700">
             expiresInMins
             </label>

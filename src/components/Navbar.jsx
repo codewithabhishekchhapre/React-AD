@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom'
 function Navbar(props) {
   return (
    <>
-   <div className='h-24 w-full bg-violet-800 text-white items-center flex justify-around'>
+   <div className='h-24 w-full bg-accent text-white items-center flex justify-around'>
      <h1 className='text-2xl font-bold'>Swiggy</h1>
      <ul className=' gap-2 hidden md:flex'>
           
@@ -19,10 +19,10 @@ function Navbar(props) {
 
         <NavLink to={"/cards"}>
 
-          <li className='text-lg'>cards</li>
+          <li className='text-lg font-roboto font-bold'>cards</li>
         </NavLink>
           
-          <li className='text-lg'>Blog</li>
+          <li className='text-lg font-roboto font-bold'>Blog</li>
           
      </ul>
      <NavLink to={"/login"}>

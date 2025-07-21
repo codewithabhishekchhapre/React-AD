@@ -23,7 +23,7 @@ function GetData() {
 
   return (
    <>
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 flex flex-wrap gap-6 items-center justify-center p-4">
+    <div className="h-[550px] overflow-scroll custom-scrollbar bg-gradient-to-br from-blue-100 to-purple-100 flex flex-wrap gap-6 items-center justify-center p-4">
      {
           users.map((user)=>{
                return (
